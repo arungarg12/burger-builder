@@ -1,0 +1,45 @@
+.BuildControls{
+    width:100%;
+    background-color: #CF8F2E;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    box-shadow: 0 2px 1px #CCC;
+    margin: auto;
+    padding: 10px 0;
+}
+
+.OrderButton{
+    background-color:yellow;
+    cursor: pointer;
+    border : 1px solid black;
+    color : brown;
+    padding: 3px;
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.OrderButton:hover{
+    background-color: lightgreen;
+    color: black;
+}
+
+.OrderButton:disabled{
+    background-color: lightgray;
+    color:gray;
+    cursor: not-allowed;
+}
+
+@keyframes{
+    0%{
+        transform:scale(1);
+    }
+    60%{
+        transform:scale(1.1);
+    }
+    100%{
+        trasform:scale(1);
+    }
+}
+

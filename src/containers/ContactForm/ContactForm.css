@@ -1,0 +1,14 @@
+.ContactForm{
+    margin: 10px auto;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    width: 60%;
+}
+
+.Input{
+    display: block;
+
+    padding: 10px;
+}
